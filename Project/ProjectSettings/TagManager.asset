@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - plane
+  - rocket2
+  - rocket3
+  - rocket
+  - ShotGunPickup
+  - hand
+  - shot
+  - ak
+  - AK47Pickup
+  - RocketlauncherPickup
   layers:
   - Default
   - TransparentFX
@@ -13,8 +24,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - rocket
+  - rAvoid
   - 
   - 
   - 

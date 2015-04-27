@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Pickup Spins.js">
+    <Files>
+      <File FileName="Assets\Scripts\Pickup Spins.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Pickups.cs" Line="22" Column="27" />
+      <File FileName="Assets\Scripts\shoot.cs" Line="1" Column="1" />
+      <File FileName="Assets\enemies\Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerUIManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\WeaponManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\OnLevelLoad.cs" Line="1" Column="1" />
+      <File FileName="Assets\enemies\PlayerTrigger.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
