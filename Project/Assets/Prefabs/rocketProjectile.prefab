@@ -90,9 +90,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799ef7522b25eef44b4cc7e2d85e6a2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rocketExplodeParticle: {fileID: 0}
+  rocketExplodeParticle: {fileID: 180598, guid: 28c6ace0cb986aa4bb0f010bdc22d9af,
+    type: 2}
   thisPos: {x: 0, y: 0, z: 0}
-  hitExplosion: {fileID: 0}
+  hitExplosion: {fileID: 137996, guid: ebc527b0d057ecb4ab01452ada6226e8, type: 2}
 --- !u!135 &13502598
 SphereCollider:
   m_ObjectHideFlags: 1

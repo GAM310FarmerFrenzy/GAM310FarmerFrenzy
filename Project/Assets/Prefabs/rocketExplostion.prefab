@@ -12,8 +12,7 @@ GameObject:
   - 135: {fileID: 13597914}
   - 23: {fileID: 2301602}
   - 54: {fileID: 5413298}
-  - 114: {fileID: 11453374}
-  - 135: {fileID: 13502598}
+  - 114: {fileID: 11467586}
   m_Layer: 8
   m_Name: rocketExplostion
   m_TagString: Untagged
@@ -28,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137996}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.7781143, y: .16012153, z: 18.8126984}
+  m_LocalPosition: {x: 5.57913971, y: .16012153, z: -52.203083}
   m_LocalScale: {x: .32024312, y: .320243061, z: .320243061}
   m_Children: []
   m_Father: {fileID: 0}
@@ -79,7 +78,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &11453374
+--- !u!114 &11467586
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -87,24 +86,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 137996}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 799ef7522b25eef44b4cc7e2d85e6a2d, type: 3}
+  m_Script: {fileID: 11500000, guid: a24a485995d26d440909c889f37bddb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rocketExplodeParticle: {fileID: 0}
-  thisPos: {x: 0, y: 0, z: 0}
-  hitExplosion: {fileID: 0}
---- !u!135 &13502598
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 137996}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: .0900000036
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &13597914
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -113,9 +97,9 @@ SphereCollider:
   m_GameObject: {fileID: 137996}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 10.6199999
+  m_Radius: 27.25
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &100100000
 Prefab:

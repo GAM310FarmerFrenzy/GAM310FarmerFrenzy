@@ -35,14 +35,13 @@ public class RocketProjectile : MonoBehaviour
 			print ("ROCKET DIED");
 			Destroy(gameObject);
 			other.SendMessage("GetDie");
-
 		}
 		*/
 		
 		thisCol.enabled = true;
 
 		print ("THE COLLIDER IS EN " + thisCol.enabled);
-		GameObject explodePart = Instantiate(Resources.Load("RocketExplode")) as GameObject;
+		GameObject explodePart = Instantiate(rocketExplodeParticle) as GameObject;
 		explodePart.transform.position = gameObject.transform.position;
 		
 		GameObject explode = Instantiate(hitExplosion) as GameObject;

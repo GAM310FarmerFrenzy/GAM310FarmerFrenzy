@@ -47,7 +47,7 @@ public class shoot : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		print ("shotgun start " + shotgunDamage);
+		//print ("shotgun start " + shotgunDamage);
 		gunAudio = GetComponent<AudioSource>();
 	}
 	
@@ -110,8 +110,7 @@ public class shoot : MonoBehaviour
 					PlayerHealth.shotGunAmmo --;
 					isShooting = true;
 					StartCoroutine("ShootDelay", 0.717f);
-					gunAudio.clip = shotGunSound;
-					gunAudio.Play();
+					gunAudio.PlayOneShot(shotGunSound, 0.7f);
 					
 					for(int i = 0; i < 5; i++)
 					{
@@ -122,7 +121,6 @@ public class shoot : MonoBehaviour
 						
 						if(Physics.Raycast(transform.position, HitSum, out hit))
 						{
-
 							if(hit.distance <= shotgunRange)
 							{
 								if(hit.transform.tag == "Enemy")
@@ -131,7 +129,6 @@ public class shoot : MonoBehaviour
 									//print("hit the enemy");
 								}
 							}
-
 						}
 
 						Debug.DrawRay (transform.position, HitSum, Color.blue);
@@ -163,8 +160,7 @@ public class shoot : MonoBehaviour
 					PlayerHealth.rifleAmmo --;
 					isShooting = true;
 					StartCoroutine("ShootDelay", 0.1f);
-					gunAudio.clip = rifleSound;
-					gunAudio.Play();
+					gunAudio.PlayOneShot(rifleSound, 0.7f);
 					
 					Vector3 rShoot = Camera.main.transform.forward;
 					
@@ -212,8 +208,8 @@ public class shoot : MonoBehaviour
 					PlayerHealth.rifleAmmo --;
 					isShooting = true;
 					StartCoroutine("ShootDelay", 0.317);
-					gunAudio.clip = handGunSound;
-					gunAudio.Play();
+					
+					gunAudio.PlayOneShot(handGunSound, 0.7f);
 					
 					Vector3 rShoot = Camera.main.transform.forward;
 					
@@ -262,8 +258,7 @@ public class shoot : MonoBehaviour
 					isShooting = true;
 					StartCoroutine("ShootDelay", 1.017f);
 					
-					gunAudio.clip = rocketSound;
-					gunAudio.Play();
+					gunAudio.PlayOneShot(rocketSound, 0.7f);
 
 					Vector3 rShoot = Camera.main.transform.forward;
 					
