@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 4504b2bab572d9145bd74d66dea63458
+timeCreated: 1430629630
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Cow1:polySurface5
+    100002: //RootNode
+    100004: joint1
+    100006: joint10
+    100008: joint11
+    100010: joint12
+    100012: joint13
+    100014: joint13 1
+    100016: joint14
+    100018: joint14 1
+    100020: joint15
+    100022: joint15 1
+    100024: joint16
+    100026: joint17
+    100028: joint18
+    100030: joint19
+    100032: joint2
+    100034: joint20
+    100036: joint21
+    100038: joint22
+    100040: joint23
+    100042: joint24
+    100044: joint3
+    100046: joint4
+    100048: joint5
+    100050: joint6
+    100052: joint7
+    100054: joint8
+    100056: joint9
+    100058: nurbsCircle1
+    100060: nurbsCircle2
+    100062: nurbsCircle3
+    100064: nurbsCircle4
+    100066: nurbsCircle5
+    100068: nurbsCircle6
+    400000: Cow1:polySurface5
+    400002: //RootNode
+    400004: joint1
+    400006: joint10
+    400008: joint11
+    400010: joint12
+    400012: joint13
+    400014: joint13 1
+    400016: joint14
+    400018: joint14 1
+    400020: joint15
+    400022: joint15 1
+    400024: joint16
+    400026: joint17
+    400028: joint18
+    400030: joint19
+    400032: joint2
+    400034: joint20
+    400036: joint21
+    400038: joint22
+    400040: joint23
+    400042: joint24
+    400044: joint3
+    400046: joint4
+    400048: joint5
+    400050: joint6
+    400052: joint7
+    400054: joint8
+    400056: joint9
+    400058: nurbsCircle1
+    400060: nurbsCircle2
+    400062: nurbsCircle3
+    400064: nurbsCircle4
+    400066: nurbsCircle5
+    400068: nurbsCircle6
+    4300000: Cow1:polySurface5
+    7400000: Cowwalk
+    9500000: //RootNode
+    13700000: Cow1:polySurface5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Cowwalk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cow1:polySurface5
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint12
+        weight: 1
+      - path: joint1/joint2/joint12/joint13
+        weight: 1
+      - path: joint1/joint2/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint2/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/joint2/joint17
+        weight: 1
+      - path: joint1/joint2/joint17/joint18
+        weight: 1
+      - path: joint1/joint2/joint17/joint18/joint19
+        weight: 1
+      - path: joint1/joint2/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint7
+        weight: 1
+      - path: joint1/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint1/joint6/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint1/joint6/joint16
+        weight: 1
+      - path: joint1/joint6/joint16/joint13 1
+        weight: 1
+      - path: joint1/joint6/joint16/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint6/joint16/joint13 1/joint14 1/joint15 1
+        weight: 1
+      - path: joint1/joint6/joint21
+        weight: 1
+      - path: joint1/joint6/joint21/joint22
+        weight: 1
+      - path: joint1/joint6/joint21/joint22/joint23
+        weight: 1
+      - path: joint1/joint6/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: nurbsCircle1/nurbsCircle2
+        weight: 1
+      - path: nurbsCircle1/nurbsCircle3
+        weight: 1
+      - path: nurbsCircle1/nurbsCircle4
+        weight: 1
+      - path: nurbsCircle1/nurbsCircle5
+        weight: 1
+      - path: nurbsCircle1/nurbsCircle6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
