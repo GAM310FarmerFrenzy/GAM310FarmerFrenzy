@@ -20,7 +20,7 @@ public class shoot : MonoBehaviour
 	public int rifleRange;
 	public int shotgunRange;
 
-	public static int shotgunDamage = 5;
+	public static int shotgunDamage = 3;
 	public static int rifleDamage = 3;
 
 	public Transform handgunParticleLoc;
