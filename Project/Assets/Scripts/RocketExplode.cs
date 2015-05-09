@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RocketExplode : MonoBehaviour {
+public class RocketExplode : MonoBehaviour 
+{
 
 	// Use this for initialization
 	void Start () 
 	{
-	
+		StartCoroutine ("ExplosionDeathTimer");
 	}
 	
 	// Update is called once per frame
@@ -23,7 +24,16 @@ public class RocketExplode : MonoBehaviour {
 			other.SendMessage("GetDie");
 		}
 		
-		Destroy(gameObject);
+		//Destroy(gameObject);
 		
+	}
+
+	IEnumerator ExplosionDeathTimer()
+	{
+		yield return new WaitForSeconds (0.1f);
+
+		Destroy(gameObject);
+
+		print ("explosion timed out");
 	}
 }

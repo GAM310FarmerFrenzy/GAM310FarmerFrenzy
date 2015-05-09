@@ -76,7 +76,20 @@ public class Enemy : MonoBehaviour
 				PlayerHealth.scoreInt += 200;
 
 				PlayerHealth.waveInt -= 1;
+			}else 
+				if(gameObject.name == "Sheep(Clone)")
+			{
+				PlayerHealth.scoreInt += 350;
+				
+				PlayerHealth.waveInt -= 1;
+			}else 
+				if(gameObject.name == "Pig(Clone)")
+			{
+				PlayerHealth.scoreInt += 150;
+				
+				PlayerHealth.waveInt -= 1;
 			}
+
 			
 			GameObject particle = Instantiate (deathParticle) as GameObject;
 			particle.transform.position = gameObject.transform.position;
@@ -109,6 +122,7 @@ public class Enemy : MonoBehaviour
 		//int remainingHealth = (Damage -= PlayerHealth.playerArmor);
 		if(PlayerHealth.invuln == false)
 		{
+			GameObject.FindWithTag ("Player").SendMessage("HurtParticle");
 			if(PlayerHealth.playerArmor != 0)
 			{
 				if(PlayerHealth.playerArmor < Damage)

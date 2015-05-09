@@ -27,6 +27,7 @@ GameObject:
   - 15: {fileID: 1521764}
   - 12: {fileID: 1268338}
   - 26: {fileID: 2648906}
+  - 114: {fileID: 11451840}
   m_Layer: 0
   m_Name: HandMuzzle
   m_TagString: Untagged
@@ -182,6 +183,17 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &11451840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f6091cbec4f684c8a02976db280f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

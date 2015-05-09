@@ -15,6 +15,7 @@ TagManager:
   - ak
   - AK47Pickup
   - RocketlauncherPickup
+  - chicken
   layers:
   - Default
   - TransparentFX
@@ -26,8 +27,8 @@ TagManager:
   - 
   - rocket
   - rAvoid
-  - 
-  - 
+  - ground
+  - avoidGround
   - 
   - 
   - 

@@ -21,6 +21,9 @@ public class PlayerHealth : MonoBehaviour
 
 	public static int scoreInt;
 
+	public GameObject getHitParticle;
+	public Transform hitParticleLoc;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -29,6 +32,15 @@ public class PlayerHealth : MonoBehaviour
 
 	}
 
+	public void HurtParticle()
+	{
+		GameObject hitParticle = Instantiate(getHitParticle) as GameObject;
+		hitParticle.transform.position = hitParticleLoc.transform.position;
+
+		hitParticle.transform.parent = hitParticleLoc;
+
+		print("SEND MESSAGE WORKED OUCH");
+	}
 	public void startInvTimer(float t)
 	{
 		//StartCoroutine (InvTimer (invTime));
