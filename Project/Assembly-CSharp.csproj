@@ -87,7 +87,9 @@
      <Compile Include="Assets\SampleAssets\Characters\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\SampleAssets\Characters\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\SampleAssets\Characters\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Scripts\BossSpawn.cs" />
      <Compile Include="Assets\Scripts\KillParticle.cs" />
+     <Compile Include="Assets\Scripts\MothershipAction.cs" />
      <Compile Include="Assets\Scripts\OnLevelLoad.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Pickups.cs" />

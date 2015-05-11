@@ -1,12 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerHealth.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SampleAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs">
     <Files>
+      <File FileName="Assets\Scripts\BossSpawn.cs" Line="21" Column="36" />
+      <File FileName="Assets\Scripts\MothershipAction.cs" Line="43" Column="37" />
       <File FileName="Assets\Scripts\shoot.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RocketProjectile.cs" Line="45" Column="66" />
-      <File FileName="Assets\Scripts\RocketExplode.cs" Line="10" Column="42" />
-      <File FileName="Assets\enemies\Enemy.cs" Line="125" Column="63" />
-      <File FileName="Assets\Scripts\PlayerHealth.cs" Line="40" Column="49" />
+      <File FileName="Assets\SampleAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="175" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
